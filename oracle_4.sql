@@ -1,6 +1,6 @@
 ---------------------------- 4장 -----------------------------------------
 
--- 카티션
+-- Cartesion Product
 SELECT A.NAME   AS "NAME"
      , B.NAME   AS "NAME"
   FROM CAT_A A
@@ -217,6 +217,7 @@ SELECT E1.ENAME AS "ENAME"
      , E2.ENAME AS "MGR_ENAME"
   FROM EMP E1 JOIN EMP E2 ON E1.MGR = E2.EMPNO;
  
+----------------------------------연습문제---------------------------------------------
 -- 1
 SELECT S.NAME    AS "STU_NAME"
      , S.DEPTNO1 AS "DEPTNO1"
